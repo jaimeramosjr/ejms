@@ -1,0 +1,159 @@
+.page {
+  background: #fff;;
+}
+
+.content-inner {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.module-content {
+  flex: 1;
+  position: relative;
+  min-height: 400px;
+}
+
+/* Buttons */
+.btn {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  padding: 5px 20px;
+}
+
+.btn-orange {
+  border: 1px solid var(--accent);
+  color: var(--accent);
+  font-weight: 600 !important;
+}
+
+.btn:hover {
+  background: var(--accent);
+  color: #ffffff;
+}
+
+/* Headers */ 
+
+nav.navbar {
+  color: #000;
+}
+
+nav.navbar a {
+  color: var(--accent);
+}
+
+/* Forms */
+.form-control {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* Alert Styles */
+.s-alert-box {
+  box-shadow:
+    2px 2px 5px rgba(0,0,0,0.16),
+    2px 2px 5px rgba(0,0,0,0.23);
+  padding: 1.1rem 0;
+  padding-left: 1rem;
+  padding-right: 1.75rem;
+  max-width: 750px;
+}
+
+.s-alert-close::before,
+.s-alert-close::after {
+  width: 2px;
+}
+
+.s-alert-box-inner {
+  line-height: 1;
+}
+
+.s-alert-icon {
+  font-size: 1.2rem;
+}
+
+/* Info Alert */
+.s-alert-info {
+  color: var(--alert-info-text);
+  background: var(--alert-info-bg);
+  border-left: 5px solid var(--alert-info);
+}
+
+.s-alert-info .s-alert-icon {
+  color: var(--alert-info);
+}
+
+.s-alert-info .s-alert-close::before,
+.s-alert-info .s-alert-close::after {
+  background: var(--alert-info) !important;
+}
+
+/* Success Alert */
+.s-alert-success {
+  color: var(--alert-success-text);
+  background: var(--alert-success-bg);
+  border-left: 5px solid var(--alert-success);
+}
+
+.s-alert-success .s-alert-close::before,
+.s-alert-success .s-alert-close::after {
+  background: var(--alert-success) !important;
+}
+
+.s-alert-success .s-alert-icon {
+  color: var(--alert-success);
+}
+
+/* Warning Alert */
+.s-alert-warning {
+  color: var(--alert-warning-text);
+  background: var(--alert-warning-bg);
+  border-left: 5px solid var(--alert-warning);
+}
+
+.s-alert-warning .s-alert-icon {
+  color: var(--alert-warning);
+}
+
+.s-alert-warning .s-alert-close::before,
+.s-alert-warning .s-alert-close::after {
+  background: var(--alert-warning-text) !important;
+}
+
+/* Error Alert */
+.s-alert-error {
+  color: var(--alert-error-text);
+  background: var(--alert-error-bg);
+  border-left: 5px solid var(--alert-error);
+}
+
+.s-alert-error .s-alert-close::before,
+.s-alert-error .s-alert-close::after {
+  background: var(--alert-error) !important;
+}
+
+.s-alert-error .s-alert-icon {
+  color: var(--alert-error);
+}
+
+
+/** Swal Buttons **/
+.swal-button {
+  background: var(--accent);
+  border: var(--accent-dark);
+}
+
+.swal-button:hover {
+  background: var(--accent);
+}
+
+.splitter-layout .layout-pane {
+    overflow-y: scroll !important;
+    overflow-x: hidden !important;
+}
+.module-content {
+
+    min-height: 600px !important;
+}

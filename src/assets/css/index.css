@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif !important;
+  background-color: #f8fafb;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.unselectable {
+  -webkit-user-select: none; /* Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+
+.card .card-close {
+  top: 10px !important;
+}
+
+section {
+  padding: 30px 0 !important;
+}
+
+.custom-control.custom-checkbox {
+  padding-left: 2rem;
+}
+
+.custom-checkbox .custom-control-label {
+  cursor: pointer;
+}
+
+.custom-control-input:checked~.custom-control-label::before,
+.custom-checkbox .custom-control-input:indeterminate~.custom-control-label::before {
+  background-color: var(--accent);
+  border-color: var(--accent);
+}
+
+.btn {
+  transition: none !important;
+}
+
+.btn-primary,
+.btn-danger {
+  color: #ffffff !important;
+}
+
+.form-control {
+  min-width: 250px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+/* .tox-notifications-container {
+  display: none !important;
+} */

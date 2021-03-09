@@ -1,0 +1,15 @@
+.sidebar-item {
+  cursor: pointer;
+}
+
+.sidebar-item-arrow {
+  font-size: .8rem !important;
+  padding-top: .4rem;
+}
+
+/* Based on bootstrapious.css */
+.sidebar-item .active {
+  background: var(--accent);
+  color: #fff;
+  border-left: 4px solid var(--accent-dark);
+}

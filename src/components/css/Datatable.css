@@ -1,0 +1,76 @@
+.rdt_Table {
+  height: 100%;
+  border-top: 1px solid var(--datatable-divider);
+  border-bottom-width: 0;
+}
+
+.rdt_TableCol {
+  border-left: 1px solid var(--datatable-divider);
+  border-top-width: 0;
+  border-bottom-width: 0;
+  font-size: .9rem !important;
+}
+
+.rdt_TableRow:hover {
+  outline: none !important;
+  border-bottom-color: var(--datatable-divider) !important;
+  background-color: var(--datatable-row-hover) !important;
+}
+
+.rdt_TableHeadRow {
+  border-bottom-width: 3px !important;
+}
+
+.rdt_TableHeadRow {
+  border-top: 1px solid var(--datatable-divider);
+}
+
+.rdt_TableCell {
+  font-size: .9rem;
+  border: 1px solid var(--datatable-divider);
+  border-bottom-width: 0;
+  border-top-width: 0;
+  border-right-width: 0;
+}
+
+.rdt_ExpanderRow {
+  border-bottom: 1px solid var(--datatable-divider);
+}
+
+/* Checkbox Column */
+.rdt_TableCol:first-child {
+  flex: 0 !important;
+  min-width: 40px;
+  border-left-width: 0;
+}
+
+.rdt_TableCell:first-child {
+  flex: 0 !important;
+  min-width: 40px;
+  border-left-width: 0;
+}
+
+/* Expand Button Column */
+.rdt_TableRow div:nth-child(2),
+.rdt_TableHeadRow div:nth-child(2) {
+  flex: 0 !important;
+  min-width: 40px;
+  padding: 0;
+}
+
+/* ID Column */
+.rdt_TableCol:nth-child(3) {
+  flex: 0 !important;
+  padding-left: 1.75rem;
+  min-width: 230px;
+}
+
+.rdt_TableCell:nth-child(3) {
+  flex: 0 !important;
+  padding: 0;
+  min-width: 230px;
+}
+
+.expand-item {
+  border-bottom: 1px solid #efefef;
+}

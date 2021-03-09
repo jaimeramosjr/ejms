@@ -1,0 +1,31 @@
+:root {
+  --accent: #f79147;
+  --accent-dark: #a23516;
+  --accent-medium: #d1441d;
+  --accent-medium-dark: #ba3c1a;
+  --accent-disabled: #f4a590;
+  --accent-focus-dark: rgb(232, 75, 32, 0.25);
+  
+  --navbar: #fff;
+  --footer: #f79147;
+  --background: #EEF5F9;
+  
+  --datatable-divider: #dee2e6;
+  --datatable-row-hover :#e9e9e9;
+
+  --alert-success: #4caf50;
+  --alert-success-bg: #DFF0D8;
+  --alert-success-text: #1e4620;
+
+  --alert-info: #2196f3;
+  --alert-info-bg: #e8f4fd;
+  --alert-info-text: #0d3c61;
+
+  --alert-warning: #F9A825;
+  --alert-warning-bg: #fff4e5;
+  --alert-warning-text: #663c00;
+
+  --alert-error: #f44336;
+  --alert-error-bg: #fdecea;
+  --alert-error-text: #611a15;
+}

@@ -1,0 +1,27 @@
+i {
+  transition: none !important;
+}
+
+.dashboard-item {
+  transition: 
+    background-color 0.15s ease-in-out,
+    color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out,
+    -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.dashboard-item:hover {
+  cursor: pointer;
+  background-color: var(--accent);
+}
+
+.dashboard-item-link,
+.dashboard-item-link:focus {
+  color: unset;
+  text-decoration: none;
+}
+
+.dashboard-item-link:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
